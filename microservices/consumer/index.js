@@ -16,6 +16,8 @@ axios.post(orderUrl, orderData, { headers })
     .then(res => {
         console.log('Status : ', res.status);
         console.log('data : ', res.data);
+
+        
     })
     .catch(err => {
         console.error(err);
